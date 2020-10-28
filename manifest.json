@@ -1,0 +1,26 @@
+{
+    "manifest_version": 1,
+    "name": "TBD",
+    "version": "1.0",
+    "description": "Kicking ass",
+    "content_scripts": [
+    {
+        "matches": ["https://www.google.com/*"],
+        "js": ["./main.js"]
+     }
+    ],
+    "icons": {
+        "128": "128.png",
+        "48": "48.png"
+    },
+    "browser_action": {
+        "default_icon": "128.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab", "<all_urls>"
+    ],
+    "web_accessible_resources" : [ 
+        "IMG_0257.png" 
+         ] 
+}

@@ -1,0 +1,28 @@
+.mousearea {
+  position: absolute;
+  z-index: -1;
+  margin: 10.5% 12.5%;
+  height: 80%;
+  width: 75%;
+  /* background-color: red; */
+  /* box-shadow: 0 0 30px black; */
+}
+
+.googleElements {
+  height: 50%;
+  /* transform-style: 'preserve-3d'; */
+  transition: all 0.25s ease;
+  transform-style: preserve-3d;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  perspective: 1000px;
+  /* transform-style: preserve-3d; */
+}
+.card {
+}
